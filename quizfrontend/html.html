@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Build a Survey Form using HTML and CSS
+	</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+	<h1>Testiņš</h1>
+	<form id="form">
+		<hr>
+        <h2>Personu identificējoša informācija</h2>
+        <hr>
+
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Vārds
+			</label>
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Uzvārds
+			</label>
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+        <hr>
+        <h2>Datubāzēs (eksāmena 1. uzdevums)</h2>
+        <hr>
+
+		<div class="form-control" >
+			<label>
+				Would you recommend GeeksforGeeks
+				to a friend?
+			</label>
+
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed" >Yes</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">No</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed" required>Maybe</input>
+			</label>
+            <label for="recommed-4">
+				<input type="radio"
+					id="recommed-4"
+					name="recommed" required>Maybe2</input>
+			</label>
+		</div>
+
+        <hr>
+        <h2>Problēmas analīze (eksāmena 2. uzdevums)</h2>
+        <hr>
+
+        <hr>
+        <h2>OOP (eksāmena 3. uzdevums)</h2>
+        <hr>
+
+        <hr>
+        <h2>API (eksāmena 4. uzdevums)</h2>
+        <hr>
+
+        <hr>
+        <h2>Datortīkli</h2>
+        <hr>
+
+		<button id="btn" type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
